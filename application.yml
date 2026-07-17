@@ -28,19 +28,19 @@ server:
 
 # AWS Configuration
 aws:
-  access-key: ${AWS_ACCESS_KEY:YOUR_AWS_ACCESS_KEY}
-  secret-key: ${AWS_SECRET_KEY:YOUR_AWS_SECRET_KEY}
-  region: ${AWS_REGION:YOUR_REGION}
+  access-key: ${AWS_ACCESS_KEY:AKIARGNK7GNCA4VQZM64}
+  secret-key: ${AWS_SECRET_KEY:odWS+qZlax1dVcfpX/rGZNrQMhthcb0zT6/zY46L}
+  region: ${AWS_REGION:eu-north-1}
   s3:
     bucket-name: ${AWS_BUCKET_NAME:netflix-streaming-videos-082499810116-eu-north-1-an}
 
 # FFmpeg Configuration
 ffmpeg:
-  path: ${FFMPEG_PATH:E:/Apps/ffmpeg/bin/ffmpeg.exe}
+  path: ${FFMPEG_PATH:C:/ffmpeg/bin/ffmpeg.exe}
 
 # Temp directory for encoding
 encoding:
-  temp-dir: ${TEMP_DIR:E:/Apps/netflix_encode_temp/encoding}
+  temp-dir: ${TEMP_DIR:C:/temp/encoding}
 
 management:
   endpoints:
