@@ -328,5 +328,3 @@ GET    /api/v1/stream/{movieId}/playlist  → Get signed playlist
 
 ## 🤝 Connect
 # Netflix-App
-# Netflix-App
-# Netflix-App
